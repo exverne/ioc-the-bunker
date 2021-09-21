@@ -1,0 +1,201 @@
+/* 
+        dark-green 1C2A2C
+        charcoal 24282B
+
+        font-family: 'Maven Pro', sans-serif; 400;500;600;700;800;900
+*/
+
+/* Universal reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Temporary styling to assist with building the structure */
+/* * {
+    padding: 0.5rem;
+    border: 1px solid rgb(220, 220, 220);
+} */
+
+/* html,
+body {
+    border: none;
+} */
+
+/* End temporary styles */
+
+/*----Utility Classes----*/
+
+.tall-50        { min-height: 50vh;}
+.tall-60        { min-height: 60vh;}
+.tall-70        { min-height: 70vh;}
+.tall-80        { min-height: 80vh;}
+.tall-90        { min-height: 90vh;}
+
+.padded         { padding: 5%;}
+.padded-1       { padding: 1rem;}
+.padded-2       { padding: 2rem;}
+
+.margin-b-0     { margin-bottom: 0;}
+
+.bg-featured    { background-color: #1C2A2C;}
+.bg-dark        { background-color: #24282B;}
+.bg-light       { background-color: white;}
+
+.light-text     { color: white;}
+.dark-text      { color: #24282B;}
+
+.text-left      { text-align: left;}
+.text-center    { text-align: center;}
+.text-right     { text-align: right;}
+
+/*----Typography Styles----*/
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+p, li {
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+p:last-child,
+li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.fab {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+a:hover {
+    color: #4d6059;
+}
+
+.subtle { 
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+/*--------Image styling--------*/
+
+.bg-image {
+    background-color: #24282B; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-bed.jpg');
+}
+
+.bg-padded {
+    padding-bottom: 30%;
+}
+
+/*----logo styling----*/
+/* .logo {
+
+} */
+
+/*--------Header styling--------*/
+.img-roof {
+    background-image: url('/images/the-bunker-roof.jpg');
+}
+
+
+/*--------Dark Background Banner Styling--------*/
+.img-bed {
+    background-image: url('/images/the-bunker-bed.jpg');
+}
+
+/*--------Opening Date banner styling--------*/
+.img-hallway {
+    background-image: url('/images/the-bunker-hallway.jpg');
+}
+
+/*--------Image and Text checkerboard styling--------*/
+
+.img-lobby {
+    background-image: url('/images/the-bunker-lobby.jpg');
+}
+.img-armchair {
+    background-image: url('/images/the-bunker-armchair.jpg');
+}
+.img-sheets {
+    background-image: url('/images/the-bunker-sheets.jpg');
+}
+
+/*----Socials Banner----*/
+.img-roof-2 {
+    background-image: url('/images/the-bunker-roof.jpg');
+    background-position: 50% 20%;
+}
+
+/*----map banner------*/
+.img-map {
+    background-image: url('/images/the-bunker-map.png')
+}
+
+/*------footer styles------*/
+footer h3 {
+    font-size: 4rem;
+    line-height: 1; 
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+/* sm media query */
+@media(max-width: 48em) {
+    .hide-sm {
+        display: none;
+    }
+
+    .flex-flip-sm {
+        flex-direction: column-reverse;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+}
